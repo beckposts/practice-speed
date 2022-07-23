@@ -1,0 +1,34 @@
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Btns {
+  background-color: aliceblue;
+  width: 300px;
+}
+
+.btns {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 20px;
+  border-style: none;
+  background-color: #cddaf6;
+}
+
+.btns:hover {
+  background-color: #bccff7;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
